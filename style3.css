@@ -1,0 +1,59 @@
+#head {
+  background: black;
+}
+
+#head .ll a:link {
+  color: #f1c7cb;
+}
+
+body {
+  background: #f1c7cb;
+  color: black;
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+#foot {
+  background-color: black;
+  text-align: center;
+}
+#foot a:link {
+  color: #f1c7cb;
+  text-align: center;
+}
+.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top-nav-left {
+  float: left;
+}
+
+.active1 {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover:not(.active) {
+  background-color: #333;
+}
+
+.active {
+  background-color: #f1c7cb;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
